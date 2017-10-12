@@ -1,4 +1,4 @@
-import { ADD_EXPENSE, REMOVE_EXPENSE, EDIT_EXPENSE } from '../actions/expenses';
+import { ADD_EXPENSE, REMOVE_EXPENSE, EDIT_EXPENSE, SET_EXPENSES } from '../actions/expenses';
 
 // Expenses Reducer
 const expensesReducerDefaultState = [];
@@ -23,6 +23,9 @@ const expensesReducer = (state = expensesReducerDefaultState, action) => {
           return expense;
         }
       });
+
+    case SET_EXPENSES:
+      return action.expenses;
 
     default:
       return state;
