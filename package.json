@@ -1,6 +1,9 @@
 {
   "name": "boilerplate",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.4.0"
+  },
   "main": "index.js",
   "author": "Ivica Šapina",
   "license": "MIT",
