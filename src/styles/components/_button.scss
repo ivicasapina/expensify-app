@@ -23,3 +23,12 @@
   background: none;
   color: darken(white, 20%);
 }
+
+.button--secondary {
+  background: #888;
+}
+
+.button--secondary:hover {
+  background: darken(#888, 10%);
+  color: darken(white, 10%);
+}
