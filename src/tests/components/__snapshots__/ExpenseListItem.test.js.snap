@@ -21,7 +21,7 @@ exports[`should render ExpenseListItem correctly 1`] = `
   <h3
     className="list-item__data"
   >
-    $1.95
+    1,95 €
   </h3>
 </Link>
 `;

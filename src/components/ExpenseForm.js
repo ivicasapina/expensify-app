@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import moment from 'moment';
 import { SingleDatePicker } from 'react-dates'; // datepicker i njegov css
 
-// moment.locale('hr'); // mijenaj datepicker format ne radi kad testiram
+moment.locale('de'); // mijenaj datepicker format ne radi kad testiram
 
 class ExpenseForm extends Component {
   constructor(props) {

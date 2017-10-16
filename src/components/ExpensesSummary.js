@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 export const ExpensesSummary = ({ expenseCount, expenseTotal }) => {
   const expenseWord = expenseCount === 1 ? 'expense' : 'expenses';
-  const formatedExpensesTotal = numeral(expenseTotal / 100).format('$0,0.00');
+  const formatedExpensesTotal = numeral(expenseTotal / 100).format('0,0[.]00 $');
 
   return (
     <div className="page-header">
