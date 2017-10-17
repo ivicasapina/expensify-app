@@ -8,27 +8,37 @@
   line-height: 1;
   padding: $s-size;
   text-decoration: none;
-}
 
-.button:hover {
-  background: darken($blue, 10%);
-  color: darken(white, 10%);
+  &:hover {
+    background: darken($blue, 10%);
+    color: darken(white, 10%);
+  }
 }
 
 .button--link {
   background: none;
+
+  &:hover {
+    background: none;
+    color: darken(white, 20%);
+  }
 }
 
-.button--link:hover {
-  background: none;
-  color: darken(white, 20%);
-}
 
 .button--secondary {
   background: #888;
+
+  &:hover {
+    background: darken(#888, 10%);
+    color: darken(white, 10%);
+  }
 }
 
-.button--secondary:hover {
-  background: darken(#888, 10%);
-  color: darken(white, 10%);
+.button--danger {
+  background: rgb(201, 121, 121);
+
+  &:hover {
+    background: darken(rgb(201, 121, 121), 15%);
+    color: darken(white, 10%);
+  }
 }

@@ -16,8 +16,8 @@ export const Header = ({ startLogout }) => (
         >Logout
     </button>
       </div>
-    </div >
-  </header >
+    </div>
+  </header>
 );
 
 export default connect(null, { startLogout })(Header);
