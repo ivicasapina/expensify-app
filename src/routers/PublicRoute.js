@@ -2,8 +2,6 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { Route, Redirect } from 'react-router-dom';
 
-// PublicRoute commented
-// Dodatni komentar
 export const PublicRoute = ({
   isAuthenticated,
   component: Component,
